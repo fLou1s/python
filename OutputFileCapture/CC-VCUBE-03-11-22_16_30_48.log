@@ -1,0 +1,22 @@
+
+show running-config | in hostname
+hostname CC-VCUBE
+
+
+show ver | include , Version
+Cisco IOS XE Software, Version 17.06.02
+Cisco IOS Software [Bengaluru], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.6.2, RELEASE SOFTWARE (fc7)
+
+
+show inventory
+NAME: "Chassis", DESCR: "Cisco Catalyst 8000V Edge Chassis"
+PID: C8000V            , VID: V00  , SN: 940GXQBRWSX
+
+NAME: "module R0", DESCR: "Cisco Catalyst 8000V Edge Route Processor"
+PID: C8000V            , VID: V00  , SN: JAB1303001C
+
+NAME: "module F0", DESCR: "Cisco Catalyst 8000V Edge Embedded Services Processor"
+PID: C8000V            , VID:      , SN:            
+
+
+
